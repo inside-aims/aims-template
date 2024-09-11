@@ -14,7 +14,7 @@ const Hero = () => {
       <main>
         <div className="relative md:h-[500px] rounded-lg w-full bg-background 
         overflow-hidden md:border h-[450px] top-16
-        mb-[30vh]">
+        mb-[10vh]">
           <FlickeringGrid
             className="z-0 absolute inset-0 size-full"
             squareSize={4}
