@@ -8,6 +8,8 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { TextGenerateEffect } from "./ui/text-generate-effect";
+import { TextGenerateEffectDemo } from "./TextGenerateEffectDemo";
 
 const Hero = () => {
   return (
@@ -38,10 +40,8 @@ const Hero = () => {
           </div>
           <div className="flex flex-col md:flex-row items-center md:items-start md:justify-start min-h-screen gap-8 md:gap-16 font-[family-name:var(--font-geist-sans)]">
             <div className="flex flex-col gap-8 items-center sm:items-start z-30 px-4 md:px-8 lg:px-16">
-              <p className="text-4xl md:text-6xl lg:text-6xl font-bold  pt-10 text-left md:w-[600px] lg:w-[750px] bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-                Welcome to AIMS, your trusted partner for bridging technology
-                and business needs.
-              </p>
+              <TextGenerateEffectDemo />
+
               <div className="p-5  md:bg-transparent bg-gray-700/30 rounded-lg list-inside text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
                 <div className=" flex gap-x-5">
                   <span> 🍾 </span>

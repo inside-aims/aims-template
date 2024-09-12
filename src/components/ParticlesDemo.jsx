@@ -3,6 +3,7 @@ import BlureFadeDemo from "./ui/BlureFadeDemo";
 import { CanvasRevealEffectDemo } from "./CanvasRevealEffectDemo";
 import SparklesText from "@/components/magicui/sparkles-text";
 import { SparklesTextDemo } from "./SparklesTextDemo";
+import Footer from "./Footer";
 const ParticlesDemo = () => {
   return (
     <div className="relative flex min-h-screen w-full flex-col pt-20 md:px-10 px-5 overflow-hidden rounded-lg md:border bg-background md:shadow-xl">
@@ -26,6 +27,9 @@ const ParticlesDemo = () => {
         <div className="mt-32">
           <CanvasRevealEffectDemo />
         </div>
+      </div>
+      <div className="py-10">
+        <Footer />
       </div>
     </div>
   );
