@@ -2,8 +2,7 @@
 
 import Particles from "@/components/magicui/particles";
 import BlureFadeDemo from "./ui/BlureFadeDemo";
-import { MagicCardDemo } from "./MagicCard";
-
+import { CanvasRevealEffectDemo } from "./CanvasRevealEffectDemo";
 const ParticlesDemo = () => {
   return (
     <div className="relative flex min-h-screen w-full flex-col pt-20 md:px-10 px-5 overflow-hidden rounded-lg md:border bg-background md:shadow-xl">
@@ -22,8 +21,8 @@ const ParticlesDemo = () => {
       />
       <div className="mt-10">
           <BlureFadeDemo />
-          <div className="mt-20">
-          <MagicCardDemo />
+          <div className="mt-32">
+            <CanvasRevealEffectDemo/>
         </div>
         </div>
        
