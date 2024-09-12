@@ -1,13 +1,16 @@
 import { useTheme } from "next-themes";
 import Image from "next/image";
-import image3 from '../public/image3.jpg'
+import image3 from "../public/image3.jpg";
 
 import { MagicCard } from "@/components/magicui/magic-card";
 
 export function MagicCardDemo() {
   const { theme } = useTheme();
   return (
-    <div className={"flex h-[500px] w-full flex-col gap-4 lg:h-[250px] "}>
+    <div
+      id="products"
+      className={"flex h-[500px] w-full flex-col gap-4 lg:h-[250px] "}
+    >
       <div>Products</div>
       <div className="md:flex-row flex h-[500px] w-fullflex-col gap-8 lg:h-[250px] items-center bg-gray-400 px-24">
         <MagicCard
