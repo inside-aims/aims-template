@@ -8,9 +8,9 @@ const Footer = () => {
         Copyright © 2024 <span className="text-green-300">AIMS</span>. All
         rights reserved.
       </p>
-      <p className="text-sm text-white text-center">
+      {/* <p className="text-sm text-white text-center">
         Show some love ❤️ for the team
-      </p>
+      </p> */}
 
       <div>
         <WordRotate
