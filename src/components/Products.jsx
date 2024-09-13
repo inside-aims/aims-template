@@ -1,12 +1,12 @@
-import React from 'react'
-import { MagicCardDemo } from './MagicCard'
+import React from "react";
+import { MagicCardDemo } from "./MagicCard";
 
 const Products = () => {
   return (
-    <>
-    <MagicCardDemo/>
-    </>
-  )
-}
+    <div id="products">
+      <MagicCardDemo />
+    </div>
+  );
+};
 
-export default Products
+export default Products;
