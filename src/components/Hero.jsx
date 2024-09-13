@@ -36,15 +36,15 @@ const Hero = () => {
             <div className="flex flex-col gap-8 items-center sm:items-start z-30 px-4 md:px-8 lg:px-16">
               <TextGenerateEffectDemo />
 
-              <div className="p-5  md:bg-transparent bg-gray-700/30 rounded-lg list-inside text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
+              <div className="px-5 py-2 md:bg-transparent bg-gray-700/30 rounded-lg list-inside text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
                 <div className=" flex gap-x-5">
                   <TypingAnimation
                     className=" text-sm md:text-3xl font-bold text-white md:ps-5 dark:text-white"
-                    text=" Explore our profitable wide range of services"
+                    text=" Explore our wide range of services"
                     duration={50}
                   />
                 </div>
-                <div className=" flex gap-x-5 mt-2">
+                <div className=" flex gap-x-5">
                   <TypingAnimation
                     className=" text-sm md:text-3xl font-bold text-white md:ps-5 dark:text-white"
                     text="Be a part of the next big thing"
