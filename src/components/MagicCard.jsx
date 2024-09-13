@@ -11,7 +11,7 @@ export function MagicCardDemo() {
       id="products"
       className={"flex h-[500px] w-full flex-col gap-4 lg:h-[250px] "}
     >
-      <div>Products</div>
+      <div className="text-white">Products</div>
       <div className="md:flex-row flex h-[500px] w-fullflex-col gap-8 lg:h-[250px] items-center bg-gray-400 px-24">
         <MagicCard
           className="cursor-pointer flex-col items-center justify-center shadow-2xl whitespace-nowrap text-4xl w-[50%] relative"

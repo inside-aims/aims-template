@@ -32,7 +32,7 @@ const Hero = () => {
           <div>
             <Image
               src={image2}
-              className="absolute md:right-0 md:bottom-0 h-full object-fill -z-30"
+              className="absolute md:right-0 md:bottom-0 h-full object-fill -z-30 hidden md:block"
               width={700}
               height={1000}
               alt="Description of image"
@@ -42,19 +42,20 @@ const Hero = () => {
             <div className="flex flex-col gap-8 items-center sm:items-start z-30 px-4 md:px-8 lg:px-16">
               <TextGenerateEffectDemo />
 
-              <div className="p-5  md:bg-transparent bg-gray-700/30 rounded-lg list-inside text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
+              <div className="p-5   md:bg-transparent bg-gray-700/30 rounded-lg list-inside text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
                 <div className=" flex gap-x-5">
-                  <span> 🍾 </span>
                   <TypingAnimation
-                    className=" text-sm font-bold text-white dark:text-white"
+                    className=" text-sm md:text-2xl font-bold text-white md:ps-5 dark:text-white"
                     text=" Explore our profitable wide range of services"
+                    duration={50}
                   />
                 </div>
                 <div className=" flex gap-x-5">
-                  <span> 🫀 </span>
                   <TypingAnimation
-                    className=" text-sm font-bold text-white dark:text-white"
+                    className=" text-sm md:text-2xl font-bold text-white md:ps-5 dark:text-white"
                     text="Be a part of the next big thing"
+                    duration={50}
+
                   />
                 </div>
               </div>

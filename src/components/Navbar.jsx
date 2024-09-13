@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import { useState, useEffect } from "react";
+import Image from "next/image";
+import image4 from "../public/image4.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,12 +31,18 @@ const Navbar = () => {
         } px-4 sm:px-6 lg:px-8 top-0`}
       >
         <div className="max-w-7xl mx-auto">
-          <div className="flex items-center h-16 container justify-around lg:ps-32">
+          <div className="flex items-center h-16 container  lg:ps-32">
+          <div>
+                <Image
+                className=""
+                height={50}
+                width={50}
+                src={image4}/>
+              </div>
             {/* Header with Hamburger Menu Icon */}
             <div className="flex items-center w-full">
               <h1 className="text-xl font-lobster text-white md:flex-1">
-                Atlas Innovations<span className="text-[#00ffcc]">&</span>Meta
-                Solutions
+                A<span className="text-[#00ffcc]">IM</span>S
               </h1>
               <div className="flex md:hidden ml-auto">
                 <button

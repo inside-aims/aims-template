@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 
 export default function TypingAnimation({
   text,
-  duration = 200,
+  duration = 50,
   className
 }) {
   const [displayedText, setDisplayedText] = useState("");
