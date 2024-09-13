@@ -3,12 +3,6 @@ import FlickeringGrid from "./magicui/flickering-grid";
 import Image from "next/image";
 import image2 from "../public/image2.png";
 import TypingAnimation from "./magicui/typing-animation";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { TextGenerateEffectDemo } from "./TextGenerateEffectDemo";
 
 const Hero = () => {
@@ -43,16 +37,19 @@ const Hero = () => {
               <TextGenerateEffectDemo />
 
               <div className="p-5  md:bg-transparent bg-gray-700/30 rounded-lg list-inside text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-                <div className="">
+                <div className=" flex gap-x-5">
                   <TypingAnimation
-                    className=" text-sm font-bold text-white dark:text-white"
+                    className=" text-sm md:text-3xl font-bold text-white md:ps-5 dark:text-white"
                     text=" Explore our profitable wide range of services"
+                    duration={50}
                   />
                 </div>
-                <div className="">
+                <div className=" flex gap-x-5 mt-2">
                   <TypingAnimation
-                    className=" text-sm font-bold text-white dark:text-white"
+                    className=" text-sm md:text-3xl font-bold text-white md:ps-5 dark:text-white"
                     text="Be a part of the next big thing"
+                    duration={50}
+
                   />
                 </div>
               </div>

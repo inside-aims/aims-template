@@ -3,6 +3,7 @@ import React from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
+import NumberTickerDemo from "./NumberTickerDemo";
 
 const Card = ({ title, icon, children }) => {
   const [hovered, setHovered] = React.useState(false);
@@ -81,8 +82,12 @@ export function CanvasRevealEffectDemo() {
   return (
     <>
       {" "}
-      <div className="md:text-6xl text-4xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-        Products
+      <div className="md:text-6xl text-4xl bg-clip-text text-transparent 
+      flex felx-row text-white">
+        Products {" "}
+        <div className="px-10">
+        <NumberTickerDemo/>
+        </div>
       </div>
       <div className="py-20 flex flex-col  items-center justify-center">
         <div className="py-20 flex flex-col lg:flex-row items-center justify-center backdrop-blur-md dark:bg-black  w-full gap-4 mx-auto px-8 bg-white/10 rounded-md">
