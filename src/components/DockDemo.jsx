@@ -10,10 +10,14 @@ export function DockDemo() {
     <div className="relative">
       <Dock magnification={60} distance={100}>
         <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-          <Icons.gitHub className="size-full" />
+          <Link href="#">
+            <Icons.gitHub className="size-full" />
+          </Link>
         </DockIcon>
         <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-          <Icons.youtube className="size-full" />
+          <Link href="#">
+            <Icons.youtube className="size-full" />
+          </Link>
         </DockIcon>
         <DockIcon className="bg-black/10 dark:bg-white/10 p-3">
           <Link href="https://wa.link/3tuqhd">
