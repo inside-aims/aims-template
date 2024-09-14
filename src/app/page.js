@@ -5,7 +5,7 @@ import Services from "@/components/Services";
 export default function Home() {
   return (
     <>
-      <body>
+      <body className="relative">
         <Navbar />
         <Hero />
         <Services />
