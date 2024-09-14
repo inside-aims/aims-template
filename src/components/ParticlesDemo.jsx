@@ -6,6 +6,7 @@ import SparklesText from "@/components/magicui/sparkles-text";
 import { SparklesTextDemo } from "./SparklesTextDemo";
 import Footer from "./Footer";
 import { AnimatedTooltipPreview } from "./AnimatedTooltipPreview";
+import { DockDemo } from "./DockDemo";
 const ParticlesDemo = () => {
   return (
     <div className="relative flex min-h-screen w-full flex-col pt-20 md:px-10 px-5 overflow-hidden rounded-lg md:border bg-background md:shadow-xl">
@@ -32,6 +33,9 @@ const ParticlesDemo = () => {
       </div>
       <div>
         <AnimatedTooltipPreview />
+      </div>
+      <div className=" fixed bottom-20 left-[30%] md:left-[40%] lg:left-1/2  z-[9999]">
+        <DockDemo />
       </div>
       <div className="py-10">
         <Footer />
