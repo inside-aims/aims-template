@@ -34,7 +34,7 @@ export const projects = [
   {
     title: "Xolace",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+      "Xolace is an anonymous messaging platform developed by AIMS (Atlas Innovations & Meta Solutions). It offers users a safe space to share their thoughts, feelings, and stories without revealing their identity. Whether you're seeking support, expressing yourself, or just venting, Xolace ensures your privacy while fostering meaningful connections",
     link: "https://netflix.com",
   },
 ];
