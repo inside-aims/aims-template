@@ -14,7 +14,7 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "AIMS",
-  description: "Atlas Innovation and Meta Solutions Website",
+  description: "Atlas Innovation and Meta Solutions Information Website",
 };
 
 export default function RootLayout({ children }) {
