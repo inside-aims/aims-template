@@ -6,8 +6,10 @@ import { AnimatedTooltipPreview } from "./AnimatedTooltipPreview";
 import { DockDemo } from "./DockDemo";
 const ParticlesDemo = () => {
   return (
-    <div className="relative flex min-h-screen w-full flex-col pt-20 md:px-10 px-5 overflow-hidden 
-    rounded-lg md:border bg-background md:shadow-xl">
+    <div
+      className="relative flex min-h-screen w-full flex-col pt-20 md:px-10 px-5 overflow-hidden 
+    rounded-lg md:border bg-background md:shadow-xl"
+    >
       <span
         className="pointer-events-none whitespace-pre-wrap
        bg-gradient-to-b from-black to-gray-300/80 bg-clip-text 
@@ -32,13 +34,12 @@ const ParticlesDemo = () => {
       <div>
         <AnimatedTooltipPreview />
         <div>
-          <div className="fixed bottom-10 z-[9999] w-full flex justify-center pe-12">
-          <DockDemo />
+          <div className="fixed bottom-10 z-[9999] w-full flex justify-center pe-12 ">
+            <DockDemo />
           </div>
-
         </div>
       </div>
-     
+
       <div className="py-10">
         <Footer />
       </div>
